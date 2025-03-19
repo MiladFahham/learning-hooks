@@ -2,20 +2,20 @@ import React, {useState} from "react"
 
 function MyComponent(){
 
-    const [name, setName] = useState("Ukendt");
-    const [age, setAge] = useState(0); 
+    const [name, setName] = useState("Ukendt")
+    const [age, setAge] = useState(0)
     const [isEmployed, setIsEmployed] = useState(false);
 
     const updateName = () => {
-        setName("Dennis");
+        setName("Dennis")
     }
 
     const incrementAge = () => {
-        setAge(age + 2);
+        setAge(age + 2)
     }
 
     const toggleEmployedStatus = () => {
-        setIsEmployed(!isEmployed);
+        setIsEmployed(!isEmployed)
     }
 
     return(
@@ -29,7 +29,7 @@ function MyComponent(){
             <p>Is Employed: {isEmployed ? "Yes" : "No"}</p>
             <button onClick={toggleEmployedStatus}>Toggle Status</button>
         </div>
-    );
+    )
 
 }
 
