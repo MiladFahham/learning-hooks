@@ -4,7 +4,6 @@ function MyComponent(){
 
     const [name, setName] = useState("Ukendt");
     const [age, setAge] = useState(0); 
-    const [quality, setQuality] = useState(0); 
     const [isEmployed, setIsEmployed] = useState(false);
 
     const updateName = () => {
@@ -16,14 +15,11 @@ function MyComponent(){
     }
 
     const toggleEmployedStatus = () => {
-        setIsEmployed(!Employed);
+        setIsEmployed(!isEmployed);
     }
 
     return(
         <div>
-            <div>
-            const [age, setAge] = useState(0); 
-            </div>
             <p>Name: {name}</p>
             <button onClick={updateName}>Set Name</button>
 
