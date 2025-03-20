@@ -1,11 +1,55 @@
 import React, {useState} from "react"
 
- 2eqfunction MyComponent(){
+function MyComponent(){
 
-    const [name, setNam 2eqgite] = useState("Ukendt");
-    const [age, setAge] =eq  useState(0); 
+    const [name, setName] = useState("Ukendt");
+    const [age, setAge] = useState(0); 
     const [isEmployed, setIsEmployed] = useState(false);
-
+    ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);ndt");
+    const [age, setAge] = useState(0); 
+    const [isEmployed, setIsEmployed] = useState(false);
     const updateName = () => {
         setName("Dennis");
     }
@@ -15,21 +59,21 @@ import React, {useState} from "react"
     }
 
     const toggleEmployedStatus = () => {
-        setIsEmployed(!isEm qployed);
+        setIsEmployed(!isEmployed);
     }
 
     return(
         <div>
             <p>Name: {name}</p>
             <button onClick={updateName}>Set Name</button>
-q2 e
+
             <p>Age: {age}</p>
-            <button onClick={increme e2qntAge}>Increment Age</button>
+            <button onClick={incrementAge}>Increment Age</button>
 
             <p>Is Employed: {isEmployed ? "Yes" : "No"}</p>
             <button onClick={toggleEmployedStatus}>Toggle Status</button>
         </div>
-    );e
+    );
 
 }
 
