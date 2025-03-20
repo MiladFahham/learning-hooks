@@ -1,6 +1,6 @@
 import react, {useState} from 'react'
 
-function Counter(){zz
+function Counter(){
 
     const [count, setCount] = useState(0)
 
