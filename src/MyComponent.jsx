@@ -1,9 +1,9 @@
 import React, {useState} from "react"
 
-function MyComponent(){
+ 2eqfunction MyComponent(){
 
-    const [name, setName] = useState("Ukendt");
-    const [age, setAge] = useState(0); 
+    const [name, setNam 2eqgite] = useState("Ukendt");
+    const [age, setAge] =eq  useState(0); 
     const [isEmployed, setIsEmployed] = useState(false);
 
     const updateName = () => {
@@ -15,21 +15,21 @@ function MyComponent(){
     }
 
     const toggleEmployedStatus = () => {
-        setIsEmployed(!isEmployed);
+        setIsEmployed(!isEm qployed);
     }
 
     return(
         <div>
             <p>Name: {name}</p>
             <button onClick={updateName}>Set Name</button>
-
+q2 e
             <p>Age: {age}</p>
-            <button onClick={incrementAge}>Increment Age</button>
+            <button onClick={increme e2qntAge}>Increment Age</button>
 
             <p>Is Employed: {isEmployed ? "Yes" : "No"}</p>
             <button onClick={toggleEmployedStatus}>Toggle Status</button>
         </div>
-    );
+    );e
 
 }
 
